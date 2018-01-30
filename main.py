@@ -36,7 +36,10 @@ data_X = data[:, dataset["X_col"]]
 data_y = data[:, dataset["Y_col"]] 
 
 
-X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,stratify=data_y)
+
+
+
+X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,random_state=46)#,stratify=data_y)
 y = y.flatten()
 y_val = y_val.flatten()
 
@@ -111,32 +114,32 @@ if "knn" in algs:
 	
 
 if "svm" in algs:
-	clf = svm.SVC(kernel=p["svm"]["kernel"],
+	svclf = svm.SVC(kernel=p["svm"]["kernel"],
 		C=p["svm"]["C"])
-	scores = cross_val_score(clf, X, y, cv=args.folds)
+	scores = cross_val_score(svclf, X, y, cv=args.folds)
 	p["svm"]["acc"] = scores.mean()
-	p["svm"]["model"] = clf.fit(X,y)
+	p["svm"]["model"] = svclf.fit(X,y)
 
 
 if "mnb" in algs:
-	clf = MultinomialNB()
-	scores = cross_val_score(clf, X, y, cv=args.folds)
+	mnbclf = MultinomialNB()
+	scores = cross_val_score(mnbclf, X, y, cv=args.folds)
 	p["mnb"]["acc"] = scores.mean()
-	p["mnb"]["model"] = clf.fit(X,y)
+	p["mnb"]["model"] = mnbclf.fit(X,y)
 
 if "mlp" in algs:
-	clf = MLPClassifier(activation=p["mlp"]["act"],
+	mlpclf = MLPClassifier(activation=p["mlp"]["act"],
 		alpha=p["mlp"]["alpha"])
-	scores = cross_val_score(clf, X, y, cv=args.folds)
+	scores = cross_val_score(mlpclf, X, y, cv=args.folds)
 	p["mlp"]["acc"] = scores.mean()
-	p["mlp"]["model"] = clf.fit(X,y)
+	p["mlp"]["model"] = mlpclf.fit(X,y)
 	
 if "rf" in algs:
-	clf = RandomForestClassifier(max_depth=p["rf"]["d"],
+	rfclf = RandomForestClassifier(max_depth=p["rf"]["d"],
 		n_estimators=p["rf"]["n"],n_jobs=-1)
-	scores = cross_val_score(clf, X, y, cv=args.folds)
+	scores = cross_val_score(rfclf, X, y, cv=args.folds)
 	p["rf"]["acc"] = scores.mean()
-	p["rf"]["model"] = clf.fit(X,y)
+	p["rf"]["model"] = rfclf.fit(X,y)
 
 
 def majority(votes, p, weighted):
@@ -184,9 +187,40 @@ for i in range(len(X_val)):
 
 
 c = 0.0
+svmr = 0.0
+rfr = 0.0
+mnbr = 0.0
+knnr = 0.0
+mlpr = 0.0
 
 for i in predictions:
 	if predictions[i] == y_val[i]: c+=1.0
+	if alg_preds["svm"][i] == y_val[i]: svmr+=1.0
+	if alg_preds["rf"][i] == y_val[i]: rfr+=1.0
+	if alg_preds["mnb"][i] == y_val[i]: mnbr+=1.0
+	if alg_preds["knn"][i] == y_val[i]: knnr+=1.0
+	if alg_preds["mlp"][i] == y_val[i]: mlpr+=1.0
+
+print("\npredictions svm with accuracy "+str(svmr/len(predictions)))
+print(alg_preds["svm"][1:10])
+
+print("\npredictions rf with accuracy "+str(rfr/len(predictions)))
+print(alg_preds["rf"][1:10])
+
+print("\npredictions mnb with accuracy "+str(mnbr/len(predictions)))
+print(alg_preds["mnb"][1:10])
+
+print("\npredictions knn with accuracy "+str(knnr/len(predictions)))
+print(alg_preds["knn"][1:10])
+
+print("\npredictions mlp with accuracy "+str(mlpr/len(predictions)))
+print(alg_preds["mlp"][1:10])
+
+print("\npredictions[1:10]")
+print(predictions[1:10])
+
+print("\ny_val[1:10]")
+print(y_val[1:10])
 
 print(len(y_val))
 
