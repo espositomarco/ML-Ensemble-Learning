@@ -14,8 +14,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
-
+from sklearn import preprocessing
 from random import shuffle
+
+# args.dataset = "bank"
+# args.folds = 5
 
 
 
@@ -24,7 +27,7 @@ dataset = datasets[args.dataset]
 # if dataset["has_header"]: f.readline()  # skip the header
 
 if dataset["filetype"] == "CSV":
-	df = pd.read_csv(dataset["train_name"], header=0) #header = dataset["has_header"])
+	df = pd.read_csv(dataset["train_name"]) #header = 'infer'])
 	
 
 if dataset["filetype"] == "arff":
@@ -33,13 +36,23 @@ if dataset["filetype"] == "arff":
 
 data = df.as_matrix()
 data_X = data[:, dataset["X_col"]]  
-data_y = data[:, dataset["Y_col"]] 
+data_y = data[:, dataset["Y_col"]]
+
+
+if(dataset["encode_labels"]):
+	for j in range(data_X.shape[1]):
+		le = preprocessing.LabelEncoder()
+		X_col = np.reshape(data_X[:,j], (data_X.shape[0],1))
+		le.fit(X_col)
+		data_X[:,j] = le.transform(X_col)
+
+	le = preprocessing.LabelEncoder()
+	le.fit(data_y)
+	data_y = le.transform(data_y)
 
 
 
-
-
-X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,random_state=46)#,stratify=data_y)
+X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,random_state=46,stratify=data_y)
 y = y.flatten()
 y_val = y_val.flatten()
 
@@ -142,13 +155,15 @@ if "rf" in algs:
 	p["rf"]["model"] = rfclf.fit(X,y)
 
 
+def mode(l):
+	return(max(set(l), key=l.count))
 def majority(votes, p, weighted):
 	l = []
 	for a,v in votes.iteritems():
 		l += [v]
 	if not weighted:	
 		shuffle(l)	
-		return(max(set(l), key=l.count)) #compute mode
+		return(mode(l))
 	else:
 		s = set(l)
 		l_votes = {}
@@ -193,7 +208,7 @@ mnbr = 0.0
 knnr = 0.0
 mlpr = 0.0
 
-for i in predictions:
+for i in range(len(predictions)):
 	if predictions[i] == y_val[i]: c+=1.0
 	if alg_preds["svm"][i] == y_val[i]: svmr+=1.0
 	if alg_preds["rf"][i] == y_val[i]: rfr+=1.0
@@ -201,23 +216,23 @@ for i in predictions:
 	if alg_preds["knn"][i] == y_val[i]: knnr+=1.0
 	if alg_preds["mlp"][i] == y_val[i]: mlpr+=1.0
 
-print("\npredictions svm with accuracy "+str(svmr/len(predictions)))
+print("\npredictions svm : accuracy "+str(svmr/len(predictions)))
 print(alg_preds["svm"][1:10])
 
-print("\npredictions rf with accuracy "+str(rfr/len(predictions)))
+print("\npredictions rf : accuracy "+str(rfr/len(predictions)))
 print(alg_preds["rf"][1:10])
 
-print("\npredictions mnb with accuracy "+str(mnbr/len(predictions)))
+print("\npredictions mnb : accuracy "+str(mnbr/len(predictions)))
 print(alg_preds["mnb"][1:10])
 
-print("\npredictions knn with accuracy "+str(knnr/len(predictions)))
+print("\npredictions knn : accuracy "+str(knnr/len(predictions)))
 print(alg_preds["knn"][1:10])
 
-print("\npredictions mlp with accuracy "+str(mlpr/len(predictions)))
+print("\npredictions mlp : accuracy "+str(mlpr/len(predictions)))
 print(alg_preds["mlp"][1:10])
 
 print("\npredictions[1:10]")
-print(predictions[1:10])
+print(np.array(predictions[1:10]))
 
 print("\ny_val[1:10]")
 print(y_val[1:10])

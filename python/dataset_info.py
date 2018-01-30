@@ -11,7 +11,7 @@ datasets = {
 		"train_name" : "prep_data/contraceptive/contraceptive.csv",
 		"X_col" : range(9),
 		"Y_col" : [9],
-		"has_header" : False,
+		"has_header" : True,
 		"filetype" : "CSV",
 		"encode_labels" : False
 	},
