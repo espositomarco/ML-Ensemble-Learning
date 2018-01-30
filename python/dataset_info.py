@@ -5,7 +5,7 @@ datasets = {
 		"Y_col" : [33],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"contraceptive" : {
 		"train_name" : "prep_data/contraceptive/contraceptive.csv",
@@ -21,7 +21,7 @@ datasets = {
 		"Y_col" : [20],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"bankruptcy" : {
 		"train_name" : "prep_data/bankruptcy/bankrupt.csv",
@@ -29,7 +29,7 @@ datasets = {
 		"Y_col" : [6],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"breast_cancer" : {
 		"train_name" : "prep_data/breast-cancer/breast-cancer-wisconsin.data",
@@ -37,31 +37,23 @@ datasets = {
 		"Y_col" : [9],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"horse" : {
 		"train_name" : "prep_data/horse-colic/horse-colic.data-preproc.csv",
 		"X_col" : range(22),
-		"Y_col" : [23],
+		"Y_col" : [22],
 		"has_header" : True,
 		"filetype" : "CSV",
 		"encode_labels" : False
 	},
     "hr" : {
-		"train_name" : "prep_data/hr_analytics/HR_comma_sep.csv",
+		"train_name" : "prep_data/hr-analytics/HR_comma_sep.csv",
 		"X_col" : range(9),
 		"Y_col" : [9],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
-	},
-	"bankruptcy" : {
-		"train_name" : "prep_data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt",
-		"X_col" : range(6),
-		"Y_col" : [6],
-		"has_header" : True,
-		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"english" : {
 		"train_name" : "prep_data/teaching-english/tae.csv",
@@ -77,7 +69,7 @@ datasets = {
 		"Y_col" : [9],
 		"has_header" : True,
 		"filetype" : "CSV",
-		"encode_labels" : False
+		"encode_labels" : True
 	},
 	"wine" : {
 		"train_name" : "prep_data/wine-quality/winequality-white.csv",
