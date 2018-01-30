@@ -22,6 +22,30 @@ datasets = {
 		"has_header" : False,
 		"filetype" : "CSV",
 		"encode_labels" : False
+	},
+	"amazon" : {
+		"train_name" : "prep_data/amazon/amazon_pca.csv",
+		"X_col" : range(1,562),
+		"Y_col" : [0],
+		"has_header" : True,
+		"filetype" : "CSV",
+		"encode_labels" : False
+	},
+	"congress" : {
+		"train_name" : "prep_data/congress/congress_leave.csv",
+		"X_col" : range(2,18),
+		"Y_col" : [1],
+		"has_header" : True,
+		"filetype" : "CSV",
+		"encode_labels" : True
+	},
+	"covertype" : {
+		"train_name" : "prep_data/covertype/covertype_scale.csv",
+		"X_col" : range(54),
+		"Y_col" : [54],
+		"has_header" : True,
+		"filetype" : "CSV",
+		"encode_labels" : True
 	}
 
 }

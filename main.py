@@ -52,7 +52,7 @@ if(dataset["encode_labels"]):
 
 
 
-X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,random_state=46,stratify=data_y)
+X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,random_state=46)#,stratify=data_y)
 y = y.flatten()
 y_val = y_val.flatten()
 
@@ -202,41 +202,43 @@ for i in range(len(X_val)):
 
 
 c = 0.0
+
 svmr = 0.0
 rfr = 0.0
-mnbr = 0.0
+# mnbr = 0.0
 knnr = 0.0
 mlpr = 0.0
 
 for i in range(len(predictions)):
 	if predictions[i] == y_val[i]: c+=1.0
+	
 	if alg_preds["svm"][i] == y_val[i]: svmr+=1.0
 	if alg_preds["rf"][i] == y_val[i]: rfr+=1.0
-	if alg_preds["mnb"][i] == y_val[i]: mnbr+=1.0
+	# if alg_preds["mnb"][i] == y_val[i]: mnbr+=1.0
 	if alg_preds["knn"][i] == y_val[i]: knnr+=1.0
 	if alg_preds["mlp"][i] == y_val[i]: mlpr+=1.0
 
-print("\npredictions svm : accuracy "+str(svmr/len(predictions)))
-print(alg_preds["svm"][1:10])
+print("\nsvm : accuracy "+str(svmr/len(predictions)))
+#print(alg_preds["svm"][1:10])
 
-print("\npredictions rf : accuracy "+str(rfr/len(predictions)))
-print(alg_preds["rf"][1:10])
+print("\nrf : accuracy "+str(rfr/len(predictions)))
+#print(alg_preds["rf"][1:10])
 
-print("\npredictions mnb : accuracy "+str(mnbr/len(predictions)))
-print(alg_preds["mnb"][1:10])
+# print("\nmnb : accuracy "+str(mnbr/len(predictions)))
+#print(alg_preds["mnb"][1:10])
 
-print("\npredictions knn : accuracy "+str(knnr/len(predictions)))
-print(alg_preds["knn"][1:10])
+print("\nknn : accuracy "+str(knnr/len(predictions)))
+#print(alg_preds["knn"][1:10])
 
-print("\npredictions mlp : accuracy "+str(mlpr/len(predictions)))
-print(alg_preds["mlp"][1:10])
+print("\nmlp : accuracy "+str(mlpr/len(predictions)))
+#print(alg_preds["mlp"][1:10])
 
-print("\npredictions[1:10]")
-print(np.array(predictions[1:10]))
+#print("\npredictions[1:10]")
+#print(np.array(predictions[1:10]))
 
-print("\ny_val[1:10]")
-print(y_val[1:10])
+#print("\ny_val[1:10]")
+#print(y_val[1:10])
 
-print(len(y_val))
+#print(len(y_val))
 
 print(c/len(predictions))
