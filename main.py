@@ -27,7 +27,7 @@ if dataset["filetype"] == "CSV":
 	df = pd.read_csv(dataset["train_name"], header=0) #header = dataset["has_header"])
 	
 
-elif dataset["filetype"] == "arff":
+if dataset["filetype"] == "arff":
 	data,meta= arff.loadarff(open(dataset["train_name"], 'rb'))
 	df = pd.DataFrame(data)
 
@@ -38,6 +38,7 @@ data_y = data[:, dataset["Y_col"]]
 
 X, X_val, y, y_val = train_test_split(data_X,data_y, test_size=0.2,stratify=data_y)
 y = y.flatten()
+y_val = y_val.flatten()
 
 
 if args.algs == None:
@@ -63,8 +64,8 @@ if "svm" in algs:
 if "rf" in algs:
 	if args.rfPar != None:
 		p["rf"] = {
-			"n" : float(args.rfPar[0]),
-			"d" : float(args.rfPar[1])
+			"n" : int(args.rfPar[0]),
+			"d" : int(args.rfPar[1])
 		}
 	else:
 		p["rf"] = {
@@ -132,32 +133,10 @@ if "mlp" in algs:
 	
 if "rf" in algs:
 	clf = RandomForestClassifier(max_depth=p["rf"]["d"],
-		n_estimators=p["rf"]["n"])
+		n_estimators=p["rf"]["n"],n_jobs=-1)
 	scores = cross_val_score(clf, X, y, cv=args.folds)
 	p["rf"]["acc"] = scores.mean()
 	p["rf"]["model"] = clf.fit(X,y)
-
-
-
-
-
-### Ensemble predictions
-votes = {}		# votes for each sample
-
-alg_preds = {} 	# predictions for all algorithms
-for a in algs:
-	alg_preds[a] = []
-
-predictions = [] # predictions of the ensemble (majority)
-for s in X_val:
-	for a in algs:
-		m = p[a]["model"]
-		pred = m.predict(s)
-		alg_preds[a] += [pred]
-		votes[a] = pred
-	r = majority(votes, p, algs.weighted)
-	predictions += [r]
-
 
 
 def majority(votes, p, weighted):
@@ -182,3 +161,33 @@ def majority(votes, p, weighted):
 				max_v = v
 		return(max_l)
 
+
+
+
+### Ensemble predictions
+votes = {}		# votes for each sample
+
+alg_preds = {} 	# predictions for all algorithms
+for a in algs:
+	alg_preds[a] = p[a]["model"].predict(X_val)
+
+#############################################################################
+
+predictions = [] # predictions of the ensemble (majority)
+for i in range(len(X_val)):
+	for a in algs:
+		votes[a] = alg_preds[a][i]
+	r = majority(votes, p, args.weighted)
+	predictions += [r]
+
+
+
+
+c = 0.0
+
+for i in predictions:
+	if predictions[i] == y_val[i]: c+=1.0
+
+print(len(y_val))
+
+print(c/len(predictions))
