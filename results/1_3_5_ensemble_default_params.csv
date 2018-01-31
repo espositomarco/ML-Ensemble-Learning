@@ -786,3 +786,7 @@ svm knn mlp,phishing,True,0.86,0.77,0.69,0.71,0.86,0.02,2.03
 svm knn mlp,phishing,True,0.83,0.78,0.67,0.69,0.87,0.02,2.04
 svm knn mlp,phishing,True,0.84,0.76,0.65,0.66,0.86,0.02,1.99
 svm knn mlp,wine,True,0.53,0.45,0.24,0.24,0.52,0.02,4.72
+svm knn mlp,wine,True,0.55,0.39,0.23,0.23,0.52,0.02,5.26
+svm knn mlp,wine,True,0.55,0.36,0.24,0.26,0.52,0.02,5.25
+svm knn mlp,congress,True,0.98,0.95,0.99,0.97,0.95,0.01,0.43
+svm knn mlp,congress,True,0.98,0.97,0.98,0.98,0.95,0.01,0.42
