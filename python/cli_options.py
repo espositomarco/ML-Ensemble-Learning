@@ -21,7 +21,7 @@ mnb: Multinomial Naive Bayes, no parameters.
 
 parser.add_argument('-W','--weighted', action="store_true" )
 parser.add_argument('-CV','--cv', action="store_true" )
-parser.add_argument('-F','--folds', type=int, default=1, help="CV folds")
+parser.add_argument('-F','--folds', type=int, default=2, help="CV folds")
 parser.add_argument('-U','--reps', type=int, default=1, help="CV runs")
 
 
