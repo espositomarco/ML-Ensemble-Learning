@@ -73,3 +73,50 @@ knn mnb rf,breast_cancer,0.96,0.96,0.94,0.95,76.57,0.92,0.16
 knn mnb rf,horse,0.92,0.91,0.91,0.91,33.35,0.90,0.10
 knn mnb rf,hr,0.97,0.98,0.94,0.96,334.85,5.29,0.50
 knn mnb rf,english,0.52,0.51,0.57,0.51,10.03,0.24,0.07
+knn mnb rf,phishing,0.90,0.86,0.86,0.86,123.58,1.78,0.28
+knn mnb rf,wine,0.63,0.47,0.30,0.33,394.93,5.29,1.12
+knn mnb rf,congress,0.95,0.95,0.95,0.95,23.18,0.79,0.09
+knn mnb mlp,student,0.58,0.28,0.23,0.23,64.70,1.24,1.17
+knn mnb mlp,contraceptive,0.54,0.53,0.49,0.50,110.50,1.18,1.66
+knn mnb mlp,autism,0.98,0.98,0.97,0.97,85.78,0.24,1.07
+knn mnb mlp,bankruptcy,0.82,0.84,0.83,0.82,25.38,0.47,0.41
+knn mnb mlp,breast_cancer,0.96,0.96,0.94,0.95,76.63,0.93,0.90
+knn mnb mlp,horse,0.87,0.85,0.85,0.85,32.91,0.70,0.44
+knn mnb mlp,hr,0.97,0.97,0.94,0.95,335.51,5.71,3.20
+knn mnb mlp,english,0.48,0.48,0.51,0.49,10.01,0.24,0.33
+knn mnb mlp,phishing,0.86,0.81,0.75,0.78,123.88,1.44,1.98
+knn mnb mlp,wine,0.57,0.40,0.23,0.24,392.64,5.72,3.79
+knn mnb mlp,congress,0.75,0.77,0.79,0.75,23.86,0.93,0.13
+knn rf mlp,student,0.72,0.74,0.51,0.58,64.86,1.52,1.26
+knn rf mlp,contraceptive,0.51,0.47,0.46,0.46,109.56,1.25,1.92
+knn rf mlp,autism,1.00,1.00,1.00,1.00,85.59,0.36,1.15
+knn rf mlp,bankruptcy,0.98,0.98,0.98,0.98,25.44,0.37,0.46
+knn rf mlp,breast_cancer,0.96,0.96,0.94,0.95,76.63,0.93,0.98
+knn rf mlp,horse,0.92,0.91,0.91,0.91,33.19,0.81,0.54
+knn rf mlp,hr,0.98,0.96,0.96,0.96,340.81,16.53,3.50
+knn rf mlp,english,0.52,0.51,0.55,0.51,10.03,0.22,0.37
+knn rf mlp,phishing,0.90,0.86,0.84,0.85,123.25,1.57,2.12
+knn rf mlp,wine,0.62,0.43,0.30,0.32,392.18,6.94,4.64
+knn rf mlp,congress,0.75,0.75,0.78,0.74,23.70,1.23,0.11
+mnb rf mlp,student,0.83,0.91,0.73,0.78,64.60,1.66,1.22
+mnb rf mlp,contraceptive,0.54,0.52,0.49,0.49,110.45,1.29,1.80
+mnb rf mlp,autism,0.99,1.00,0.99,0.99,85.68,0.25,1.11
+mnb rf mlp,bankruptcy,0.98,0.98,0.98,0.98,25.47,0.33,0.45
+mnb rf mlp,breast_cancer,0.96,0.96,0.94,0.95,76.75,1.12,0.96
+mnb rf mlp,horse,0.85,0.83,0.84,0.84,33.03,0.94,0.54
+mnb rf mlp,hr,0.98,0.99,0.96,0.98,334.63,4.38,3.33
+mnb rf mlp,english,0.48,0.48,0.53,0.48,10.02,0.23,0.36
+mnb rf mlp,phishing,0.89,0.86,0.83,0.85,123.58,1.98,2.04
+mnb rf mlp,wine,0.58,0.40,0.27,0.29,394.21,5.76,4.16
+mnb rf mlp,congress,0.93,0.92,0.93,0.93,23.75,1.24,0.10
+svm knn mnb rf mlp,student,0.66,0.61,0.27,0.29,65.27,1.77,1.32
+svm knn mnb rf mlp,contraceptive,0.52,0.49,0.47,0.47,110.28,1.15,2.30
+svm knn mnb rf mlp,autism,0.99,1.00,0.99,0.99,85.78,0.40,1.18
+svm knn mnb rf mlp,bankruptcy,0.98,0.98,0.98,0.98,25.47,0.33,0.47
+svm knn mnb rf mlp,breast_cancer,0.96,0.97,0.95,0.96,76.63,0.93,1.00
+svm knn mnb rf mlp,horse,0.88,0.87,0.88,0.87,33.24,0.67,0.55
+svm knn mnb rf mlp,hr,0.98,0.99,0.95,0.97,334.96,3.89,3.68
+svm knn mnb rf mlp,english,0.48,0.48,0.51,0.49,10.03,0.22,0.39
+svm knn mnb rf mlp,phishing,0.89,0.84,0.80,0.82,123.48,1.41,2.17
+svm knn mnb rf mlp,wine,0.58,0.41,0.24,0.25,392.66,5.80,5.28
+svm knn mnb rf mlp,congress,0.95,0.95,0.95,0.95,23.43,0.94,0.13

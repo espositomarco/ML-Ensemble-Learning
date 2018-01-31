@@ -41,7 +41,13 @@ class MajorityClassifier(BaseEstimator, ClassifierMixin):
                                    )
 
     def score(self, X, y=None, sample_weight=None):
-        return np.sum(self.predict(X) == np.array(y))/len(X)
+        y_pred = self.predict(X)
+        y_val = y.as_matrix().flatten()
+        tp = 0
+        for i in range(0,len(y)):
+            tp += y_pred[i] == y_val[i]
+        res = tp/len(y_val)
+        return res
 
     def _count(self, votes):
         res = np.bincount(votes)
