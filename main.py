@@ -191,40 +191,30 @@ c = 0.0
 
 svmr = 0.0
 rfr = 0.0
-# mnbr = 0.0
+mnbr = 0.0
 knnr = 0.0
 mlpr = 0.0
 
 for i in range(len(predictions)):
     if predictions[i] == y_val[i]: c += 1.0
 
-    if alg_preds["svm"][i] == y_val[i]: svmr += 1.0
-    if alg_preds["rf"][i] == y_val[i]: rfr += 1.0
-    # if alg_preds["mnb"][i] == y_val[i]: mnbr+=1.0
-    if alg_preds["knn"][i] == y_val[i]: knnr += 1.0
-    if alg_preds["mlp"][i] == y_val[i]: mlpr += 1.0
+    if "svm" in alg_preds and alg_preds["svm"][i] == y_val[i]: svmr += 1.0
+    if "rf" in alg_preds and alg_preds["rf"][i] == y_val[i]: rfr += 1.0
+    if "mnb" in alg_preds and alg_preds["mnb"][i] == y_val[i]: mnbr+=1.0
+    if "knn" in alg_preds and alg_preds["knn"][i] == y_val[i]: knnr += 1.0
+    if "mlp" in alg_preds and alg_preds["mlp"][i] == y_val[i]: mlpr += 1.0
 
-print("\nsvm : accuracy " + str(svmr / len(predictions)))
-# print(alg_preds["svm"][1:10])
+if "svm" in algs:
+    print("\nsvm : accuracy " + str(svmr / len(predictions)))
+if "rf" in algs:
+    print("\nrf : accuracy " + str(rfr / len(predictions)))
+if "mnb" in algs:
+    print("\nmnb : accuracy "+str(mnbr/len(predictions)))
+if "knn" in algs:
+    print("\nknn : accuracy " + str(knnr / len(predictions)))
+if "mlp" in algs:
+    print("\nmlp : accuracy " + str(mlpr / len(predictions)))
 
-print("\nrf : accuracy " + str(rfr / len(predictions)))
-# print(alg_preds["rf"][1:10])
 
-# print("\nmnb : accuracy "+str(mnbr/len(predictions)))
-# print(alg_preds["mnb"][1:10])
 
-print("\nknn : accuracy " + str(knnr / len(predictions)))
-# print(alg_preds["knn"][1:10])
-
-print("\nmlp : accuracy " + str(mlpr / len(predictions)))
-# print(alg_preds["mlp"][1:10])
-
-# print("\npredictions[1:10]")
-# print(np.array(predictions[1:10]))
-
-# print("\ny_val[1:10]")
-# print(y_val[1:10])
-
-# print(len(y_val))
-
-print(c / len(predictions))
+print("\nEnsemble : accuracy " + str(c / len(predictions)))
