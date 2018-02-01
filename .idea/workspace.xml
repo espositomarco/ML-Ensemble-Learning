@@ -1,16 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/generate_results.py" line="11" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="21cd5c47-0096-4601-b99e-7bf6220a380c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/amazon/amzreviews.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/congress/congress_leave.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/covertypes/covertype_scale.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/kidney/kidney_colMeanMode.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/student/student_grades.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/notebooks/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/notebooks/param_tuning_notebook.ipynb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/prep_data/amazon/amzreviews.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/prep_data/covertypes/covertype_scale.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/MajorityClassifier.py" afterPath="$PROJECT_DIR$/MajorityClassifier.py" />
-      <change beforePath="$PROJECT_DIR$/generate_results.py" afterPath="$PROJECT_DIR$/generate_results.py" />
-      <change beforePath="$PROJECT_DIR$/results/Majority_New_sets_only_Default_params_All_combs.csv" afterPath="$PROJECT_DIR$/results/old/Majority_New_sets_only_Default_params_All_combs.csv" />
-      <change beforePath="$PROJECT_DIR$/results/Majority_Weighted_New_sets_only_Default_params_All_combs.csv" afterPath="$PROJECT_DIR$/results/old/Majority_Weighted_New_sets_only_Default_params_All_combs.csv" />
-      <change beforePath="$PROJECT_DIR$/results/readme.txt" afterPath="$PROJECT_DIR$/results/old/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/MajorityClassifier.py" afterPath="$PROJECT_DIR$/python/MajorityClassifier.py" />
+      <change beforePath="$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Adult-Data-preproc.arff" afterPath="$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv" />
+      <change beforePath="$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Adult-Data.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Screening-Adult-Data Description.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.arff" afterPath="$PROJECT_DIR$/data/bankruptcy/bankrupt.csv" />
+      <change beforePath="$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt" afterPath="$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt" />
+      <change beforePath="$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.info.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/breast-cancer/breast-cancer-wisconsin.data" afterPath="$PROJECT_DIR$/data/breast-cancer/breast-cancer-wisconsin.data" />
+      <change beforePath="$PROJECT_DIR$/data/breast-cancer/breast-cancer-wisconsin.names" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/contraceptive/contraceptive.csv" afterPath="$PROJECT_DIR$/data/contraceptive/contraceptive.csv" />
+      <change beforePath="$PROJECT_DIR$/data/contraceptive/contraceptive.names" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.data2.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.data2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.data3.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.data4.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/additional_old/horse-colic.datanominal.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/horse-colic.data-preproc.arff" afterPath="$PROJECT_DIR$/data/horse-colic/horse-colic.data-preproc.csv" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/horse-colic.names.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/horse-colic/horse-colic.test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/hr-analytics/hr.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/student/student-mat.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/student/student-merge.R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/student/student-por.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/student/student.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/teaching-english/additional/tae.data.csv" afterPath="$PROJECT_DIR$/data/teaching-english/tae.csv" />
+      <change beforePath="$PROJECT_DIR$/data/teaching-english/additional/tae.datanominal.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/teaching-english/tae.data.arff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/teaching-english/tae.names.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/website-phishing/PhishingData.arff" afterPath="$PROJECT_DIR$/data/website-phishing/PhishingData.csv" />
+      <change beforePath="$PROJECT_DIR$/data/wine-quality/winequality-red.csv" afterPath="$PROJECT_DIR$/data/wine-quality/winequality-red.csv" />
+      <change beforePath="$PROJECT_DIR$/data/wine-quality/winequality-white.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/wine-quality/winequality.names" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generate_results.py" afterPath="$PROJECT_DIR$/python/generate_results.py" />
+      <change beforePath="$PROJECT_DIR$/notebooks/hypertuning_notebook.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/param_tuning_notebook.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv" afterPath="$PROJECT_DIR$/prep_data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt" afterPath="$PROJECT_DIR$/prep_data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt" />
+      <change beforePath="$PROJECT_DIR$/prep_data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/bankruptcy/bankrupt.csv" afterPath="$PROJECT_DIR$/prep_data/bankruptcy/bankrupt.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/bankruptcy/bankrupt.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/breast-cancer/breast-cancer-wisconsin.data" afterPath="$PROJECT_DIR$/prep_data/breast-cancer/breast-cancer-wisconsin.data" />
+      <change beforePath="$PROJECT_DIR$/prep_data/breast-cancer/breast-cancer-wisconsin.data_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/congress/congress_leave.csv" afterPath="$PROJECT_DIR$/prep_data/congress/congress_leave.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/contraceptive/contraceptive.csv" afterPath="$PROJECT_DIR$/prep_data/contraceptive/contraceptive.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/contraceptive/contraceptive.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/horse-colic/horse-colic.data-preproc.csv" afterPath="$PROJECT_DIR$/prep_data/horse-colic/horse-colic.data-preproc.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/horse-colic/horse-colic.data-preproc.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/hr-analytics/HR_comma_sep.csv" afterPath="$PROJECT_DIR$/data/hr-analytics/HR_comma_sep.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/hr-analytics/HR_comma_sep.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/hr-analytics/HR_comma_sep.csv_preprocessed_reduced" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/kidney/kidney_colMeanMode.csv" afterPath="$PROJECT_DIR$/prep_data/kidney/kidney_colMeanMode.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/student/student_grades.csv" afterPath="$PROJECT_DIR$/prep_data/student/student_grades.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/student/student_grades.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/teaching-english/tae.csv" afterPath="$PROJECT_DIR$/prep_data/teaching-english/tae.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/teaching-english/tae.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/website-phishing/PhishingData.csv" afterPath="$PROJECT_DIR$/prep_data/website-phishing/PhishingData.csv" />
+      <change beforePath="$PROJECT_DIR$/prep_data/website-phishing/PhishingData.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/wine-quality/winequality-white.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/wine-quality/winequality-white.csv_preprocessed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prep_data/wine-quality/winequality-white.csv_preprocessed_reduced" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/dataset_info.py" afterPath="$PROJECT_DIR$/python/dataset_info.py" />
+      <change beforePath="$PROJECT_DIR$/python/preprocessing_notebook.ipynb" afterPath="$PROJECT_DIR$/notebooks/preprocessing_notebook.ipynb" />
+      <change beforePath="$PROJECT_DIR$/python/result_analysis_notebook.ipynb" afterPath="$PROJECT_DIR$/notebooks/result_analysis_notebook.ipynb" />
+      <change beforePath="$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/1_3_5_ensemble_default_params.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/Majority2_New_sets_only_Default_params_All_combs.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/Majority_New_sets_only_Default_params_All_combs.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/Majority_Weighted2_New_sets_only_Default_params_All_combs.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/Majority_Weighted_New_sets_only_Default_params_All_combs.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/Single_New_sets_only_Default_params_All_combs.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/old/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/params_tuning.csv" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,77 +96,68 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_Ensemble_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1517343353562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_Ensemble_Learning$generate_results.coverage" NAME="generate_results Coverage Results" MODIFIED="1517433927562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Ensemble_Learning$generate_results.coverage" NAME="generate_results Coverage Results" MODIFIED="1517472380049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="generate_results.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_results.py">
+        <entry file="file://$PROJECT_DIR$/python/generate_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="260">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_3_5_ensemble_default_params.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv">
+      <file leaf-file-name="res.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/res.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="752" column="3" lean-forward="true" selection-start-line="752" selection-start-column="3" selection-end-line="752" selection-end-column="3" />
+            <state relative-caret-position="323">
+              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli_options.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/cli_options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding />
-            </state>
+      <file leaf-file-name="single_bar.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plots/single_bar.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="34" />
-              <folding />
-            </state>
+      <file leaf-file-name="single_runtimes.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plots/single_runtimes.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MajorityClassifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MajorityClassifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="congress_leave.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prep_data/congress/congress_leave.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="singleVSensemble.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plots/singleVSensemble.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="dataset_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/dataset_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1440">
-              <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="1785">
+              <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MajorityClassifier.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/MajorityClassifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -114,9 +180,18 @@
       <find>print</find>
       <find>rbf</find>
       <find>’</find>
+      <find>kidney</find>
+      <find>;</find>
+      <find>&quot;</find>
+      <find>maj</find>
+      <find>amaz</find>
+      <find>score</find>
+      <find>algs</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
+      <replace>,</replace>
+      <replace>mnb_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -129,13 +204,30 @@
         <option value="$PROJECT_DIR$/WeightedMajorityClassifier.py" />
         <option value="$PROJECT_DIR$/python/cli_options.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/python/dataset_info.py" />
         <option value="$PROJECT_DIR$/results/Majority_Weighted_New_sets_only_Default_params_All_combs.csv" />
         <option value="$PROJECT_DIR$/results/Single_New_sets_only_Default_params_All_combs.csv" />
         <option value="$PROJECT_DIR$/MajorityClassifier.py" />
-        <option value="$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv" />
         <option value="$PROJECT_DIR$/results/params_tuning.csv" />
         <option value="$PROJECT_DIR$/generate_results.py" />
+        <option value="$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv" />
+        <option value="$PROJECT_DIR$/data/bankruptcy/bankrupt.csv" />
+        <option value="$PROJECT_DIR$/data/congress/congress_leave.csv" />
+        <option value="$PROJECT_DIR$/data/covertypes/covertype_scale.csv" />
+        <option value="$PROJECT_DIR$/data/horse-colic/horse-colic.data-preproc.csv" />
+        <option value="$PROJECT_DIR$/data/kidney/kidney_colMeanMode.csv" />
+        <option value="$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt" />
+        <option value="$PROJECT_DIR$/data/student/student_grades.csv" />
+        <option value="$PROJECT_DIR$/data/teaching-english/tae.csv" />
+        <option value="$PROJECT_DIR$/data/wine-quality/winequality-white.csv" />
+        <option value="$PROJECT_DIR$/data/wine-quality/winequality-red.csv" />
+        <option value="$PROJECT_DIR$/data/hr-analytics/HR_comma_sep.csv" />
+        <option value="$PROJECT_DIR$/notebooks/param_tuning_notebook.ipynb" />
+        <option value="$PROJECT_DIR$/results/grid_search_res.csv" />
+        <option value="$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv" />
+        <option value="$PROJECT_DIR$/python/dataset_info.py" />
+        <option value="$PROJECT_DIR$/python/MajorityClassifier.py" />
+        <option value="$PROJECT_DIR$/python/generate_results.py" />
+        <option value="$PROJECT_DIR$/results/res.csv" />
       </list>
     </option>
   </component>
@@ -146,8 +238,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1761" />
-    <option name="y" value="148" />
+    <option name="x" value="-1631" />
+    <option name="y" value="103" />
     <option name="width" value="1550" />
     <option name="height" value="1000" />
   </component>
@@ -173,39 +265,12 @@
               <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="prep_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="prep_data" type="462c0819:PsiDirectoryNode" />
-              <item name="congress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML-Ensemble-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML-Ensemble-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,11 +280,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\results\old" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\data" />
       <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\notebooks" />
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\python" />
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning" />
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\data\wine-quality" />
+      <recent name="C:\Users\Adi\Desktop\ML-Ensemble-Learning\prep_data\amazon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +318,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML-Ensemble-Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_results.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Adi\Desktop\ML-Ensemble-Learning\python\generate_results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,47 +374,47 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45705196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45705196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33154258" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12382813" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45705196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,116 +430,334 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WeightedMajorityClassifier.py">
+    <entry file="file://$PROJECT_DIR$/python/cli_options.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="816">
+          <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prep_data/student/student_grades.csv_preprocessed">
+    <entry file="file://$PROJECT_DIR$/data/bankruptcy/bankrupt.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11050">
-          <caret line="650" column="0" lean-forward="false" selection-start-line="650" selection-start-column="0" selection-end-line="650" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/old/Single_New_sets_only_Default_params_All_combs.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/old/Majority_New_sets_only_Default_params_All_combs.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1716">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/old/Majority_Weighted_New_sets_only_Default_params_All_combs.csv">
+    <entry file="file://$PROJECT_DIR$/data/contraceptive/contraceptive.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1160">
+        <state relative-caret-position="-4437">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="-357">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/student/student_grades.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="233" lean-forward="false" selection-start-line="0" selection-start-column="233" selection-end-line="0" selection-end-column="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/teaching-english/tae.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/website-phishing/PhishingData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/breast-cancer/breast-cancer-wisconsin.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/congress/congress_leave.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/covertypes/covertype_scale.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="212" lean-forward="false" selection-start-line="0" selection-start-column="212" selection-end-line="0" selection-end-column="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/wine-quality/winequality-white.csv" />
+    <entry file="file://$PROJECT_DIR$/prep_data/wine-quality/winequality-white.csv" />
+    <entry file="file://$PROJECT_DIR$/data/wine-quality/winequality-red.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="143" lean-forward="false" selection-start-line="0" selection-start-column="143" selection-end-line="0" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/horse-colic/horse-colic.data-preproc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3468">
+          <caret line="0" column="292" lean-forward="false" selection-start-line="0" selection-start-column="292" selection-end-line="0" selection-end-column="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/kidney/kidney_colMeanMode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="96" lean-forward="false" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hr-analytics/HR_comma_sep.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/amazon/amzreviews.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="1" column="4450" lean-forward="false" selection-start-line="1" selection-start-column="4450" selection-end-line="1" selection-end-column="4450" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/Autism-Adult-Data/Autism-Adult-Data-preproc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/bankruptcy/bankrupt.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/breast-cancer/breast-cancer-wisconsin.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prep_data/congress/congress_leave.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/contraceptive/contraceptive.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/covertypes/covertype_scale.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33242">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/horse-colic/horse-colic.data-preproc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/hr-analytics/HR_comma_sep.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/kidney/kidney_colMeanMode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/Qualitative_Bankruptcy/Qualitative_Bankruptcy.data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/student/student_grades.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/website-phishing/PhishingData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="260" column="37" lean-forward="true" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/wine-quality/winequality-red.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3502">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_data/teaching-english/tae.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/param_tuning_notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/param_tuning_notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/notebooks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amzreviews.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv" />
+    <entry file="file://$PROJECT_DIR$/results/grid_search_res.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/dataset_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state relative-caret-position="1785">
+          <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/cli_options.py">
+    <entry file="file://$PROJECT_DIR$/python/generate_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/params_tuning.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/old/1_3_5_ensemble_default_params.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MajorityClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="260">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/1_3_5_ensemble_default_params.csv">
+    <entry file="file://$PROJECT_DIR$/results/res.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="752" column="3" lean-forward="true" selection-start-line="752" selection-start-column="3" selection-end-line="752" selection-end-column="3" />
+        <state relative-caret-position="323">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/single_bar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/single_runtimes.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/singleVSensemble.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/grid_search_res.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/plt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/result_analysis_notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/MajorityClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
           <folding />
         </state>
       </provider>
